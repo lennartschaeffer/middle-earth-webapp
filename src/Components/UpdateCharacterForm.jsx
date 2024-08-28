@@ -17,8 +17,8 @@ const UpdateCharacterForm = ({
 }) => {
 
   const [name, setName] = useState(character?.name);
-  const [home, setHome] = useState();
-  const [race, setRace] = useState();
+  const [home, setHome] = useState(homes?.find((h) => h.name === character?.homeName)?.id);
+  const [race, setRace] = useState(races?.find((r) => r.name === character?.raceName)?.id);
   const [imageObj, setImageObj] = useState({
     imageFile: "",
     imageSrc: "",
@@ -44,8 +44,12 @@ const UpdateCharacterForm = ({
   };
 
   const submit = () => {
-    if (!name || !home || !race || !imageObj.imageFile || !weapon) {
+    if (!name || !home || !race || !weapon) {
       toast("Please fill in all fields");
+      console.log(name)
+      console.log(homes)
+      console.log(race)
+      console.log(weapon)
       return;
     }
 
