@@ -1,0 +1,5 @@
+body{
+    background: url('./background.jpeg');
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
