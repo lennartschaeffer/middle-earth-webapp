@@ -237,6 +237,8 @@ function App() {
                 }
                 refresh={refreshAddForm}
                 onUpdate={() => onRefreshPage("Character Updated")}
+                homes={locations}
+                races={races}
                 style={{ cursor: "pointer" }}
               />
             </div>
