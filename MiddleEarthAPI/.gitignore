@@ -1,0 +1,69 @@
+MiddleEarthAPI/appsettings.json
+
+# Ignore build output and temporary files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Logs
+*.log
+*.tlog
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio Code specific files
+.vscode/
+
+# Rider IDE specific files
+.idea/
+*.sln.iml
+
+# Visual Studio specific files
+.vs/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Publish output
+*.PublishProfiles/
+*.publish.xml
+
+# Generated files
+*.generated.cs
+*.designer.cs
+Generated_Code/
+
+# Dependency caches
+node_modules/
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.mdf
+*.ldf
+
+# Resharper files
+_ReSharper.Caches/
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+~$*
+
+# ASP.NET Core-specific
+wwwroot/
+wwwroot/lib/

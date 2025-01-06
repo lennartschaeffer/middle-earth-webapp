@@ -1,0 +1,6 @@
+@MiddleEarthAPI_HostAddress = http://localhost:5237
+
+GET {{MiddleEarthAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
